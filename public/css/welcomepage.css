@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: linear-gradient(to top  , #932736 , rgb(25,25,25));
+}
+
+.nav_links li, a {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+ .a_color:hover {
+     color: white;
+ }
+
+.logo{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.li-button {
+    padding: 9px 25px;
+    background-color: rgba(225,10,85,0.75);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0.05s;
+}
+
+.li-button a:hover {
+    color: white;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0.05s;
+}
+
+.nav_links li a:hover{
+    color: rgb(255,85,110);
+}
+
+
+.introImage {
+    display: block;
+    height: 75%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border: rgb(255,255,255,0.2) solid 2px;
+    border-radius: 5px;
+}
+
+.info-1 {
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+.info-paragraphs {
+    font-size: 16px;
+    padding: 15px;
+    color: Black;
+    text-align: center;
+}
+
+.infoContainer {
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.8);
+}
+
+.containerCards{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerCards .card{
+    position: relative;
+    cursor: pointer;
+}
+
+.containerCards .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.containerCards .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.containerCards .card:hover .face.face1{
+    background: #A85553;
+    transform: translateY(0);
+}
+
+.containerCards .card .face.face1 .content{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.containerCards .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.containerCards .card .face.face1 .content img{
+    max-width: 100px;
+}
+
+.containerCards .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.containerCards .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgb(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.containerCards .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.containerCards .card .face.face2 .content > p{
+    margin: 0;
+    padding: 0;
+}
+
+.containerCards .card .face.face2 .content > a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.containerCards .card .face.face2 .content a:hover{
+    background: #333;
+    color: #fff;
+}
+.card {
+    background-color: rgba(0,0,0,0.15);;
+}
+
+.carousel{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border: rgb(255,255,255,0.2) solid 2px;
+    border-radius: 0px;
+}
+.carousel-control-next, .carousel-control-prev {
+    transition: all 0.3s ease-in-out 0.05s;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    background-color: rgb(0,0,0,0.8);
+    border-radius: 0;
+}
+.section_info{
+    font-weight: 500;
+    font-size: 17px;
+    padding: 9px 25px;
+    color:black;
+    background-color: rgb(255,255,255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0.05s;
+}
+
+.section_info:hover{
+    transition: all 0.3s ease 0.05s;
+    color: rgb(255,85,110);;
+}
+
+.section_info_text{
+    color: white;
+}
+
+.customPadding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.custom-nav-li {
+    display: inline-block;
+    padding: 20px;
+}
+.custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.footerItems {
+    list-style-type: none;
+}
+.footerItems li a {
+    text-decoration: none;
+    color: white;
+}
+.footerItems li a:hover {
+    transition: all 0.3s ease 0.05s;
+    color: rgb(255,85,110);;
+}
+
+
+
+
+
+
